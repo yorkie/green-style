@@ -3,9 +3,99 @@
   <title> Green Style </title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+
+  <style type="text/css">
+
+  @font-face {
+    font-family: "majoram";
+    src: url("fonts/Majoram.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "icon-search";
+    src: url("fonts/icon-search.ttf") format("truetype");
+  }
+
+  #search-icon {
+    font-family: "icon-search";
+    font-size: 24px;
+    color: #0e341e;
+    line-height: 40px;
+  }
+
+  #search-input {
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    color: #0f3820;
+    line-height: 40px;
+  }
+
+  #one-page {
+    width: 100%;
+    height: 500px;
+    background: #128241;
+    position: relative;
+  }
+
+  .one-page-nav {
+    width: inherit;
+    height: 40px;
+    background: #0b5229;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .one-page-content {
+    width: inherit;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+  }
+
+  .one-page-control {
+    width: inherit;
+    position: absolute;
+    bottom: 120px;
+    text-align: center;
+  }
+
+  .one-page-content h1 {
+    font-family: "majoram";
+    font-size: 60px;
+    color: #32a663;
+  }
+
+  .one-page-content .slogan {
+    font-size: 24px;
+    color: #0e512a;
+  }
+
+  </style>
 </head>
 
 <body>
-  <h1> Hello, Green </h1>
+
+  <div id="one-page" class="one-page">
+
+    <div class="one-page-nav">
+      <span id="search-icon">󰄬</span>
+      <span id="search-input">&nbsp;搜索</span>
+    </div>
+
+    <div class="row one-page-content">
+      <h1>Green Style</h1>
+      <h3 class="slogan">一体化室内家居环保全新上线</h3>
+    </div>
+
+    <div class="row one-page-control">
+      <button type="button" class="btn btn-lg btn-success">立即使用</button>
+      <button type="button" class="btn btn-lg btn-default">成功案例</button>
+    </div>
+
+  </div>
+
+
 </body>
 </html>
