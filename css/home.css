@@ -129,3 +129,14 @@
 .plan-ceil p.price {
   margin-top: 20px;
 }
+
+/*
+ * Footer
+ */
+#footer {
+  padding: 30px 0;
+  text-align: center;
+}
+
+
+
