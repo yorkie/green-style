@@ -1,11 +1,12 @@
+
 @font-face {
   font-family: "majoram";
-  src: url("fonts/Majoram.ttf") format("truetype");
+  src: url("../fonts/Majoram.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "icon-search";
-  src: url("fonts/icon-search.ttf") format("truetype");
+  src: url("../fonts/icon-search.ttf") format("truetype");
 }
 
 #search-icon {
