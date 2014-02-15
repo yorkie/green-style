@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "majoram";
+  src: url("fonts/Majoram.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "icon-search";
+  src: url("fonts/icon-search.ttf") format("truetype");
+}
+
+#search-icon {
+  font-family: "icon-search";
+  font-size: 24px;
+  color: #0e341e;
+  line-height: 40px;
+}
+
+#search-input {
+  font-family: "Microsoft Yahei";
+  font-size: 18px;
+  color: #0f3820;
+  line-height: 40px;
+}
+
+#one-page {
+  width: 100%;
+  height: 500px;
+  background: #128241;
+  position: relative;
+}
+
+.one-page-nav {
+  width: inherit;
+  height: 40px;
+  background: #0b5229;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.one-page-content {
+  width: inherit;
+  position: absolute;
+  top: 150px;
+  text-align: center;
+}
+
+.one-page-control {
+  width: inherit;
+  position: absolute;
+  bottom: 120px;
+  text-align: center;
+}
+
+.one-page-content h1 {
+  font-family: "majoram";
+  font-size: 60px;
+  color: #32a663;
+}
+
+.one-page-content .slogan {
+  font-size: 24px;
+  color: #0e512a;
+}
+
+.gs-row h2, .gs-row h5 {
+  font-family: "Microsoft Yahei";
+  font-size: 30px;
+  line-height: 40px;
+  color: #0f3820;
+}
+
+.gs-row h5 {
+  font-size: 14px;
+  line-height: 30px;
+  color: #0f3820;
+}
+
+#integration-row {
+  margin-top: 80px;
+}
+
+#integration-row .gs-spec {
+  padding-top: 50px;
+}
+
+#dection-row {
+  margin-top: 60px;
+}
+
+#dection-row .gs-spec {
+  padding-top: 15px;
+}
+
+#counselor-row {
+  margin-top: 60px;
+}
+
+#counselor-row .gs-spec {
+  padding-top: -10px;
+}
+
+/*
+ * Plan
+ */
+#plan {
+  margin-top: 60px;
+  padding: 45px 0;
+  background: #128241;
+  color: #fff;
+}
+
+.plan-ceil {
+  text-align: center;
+}
+
+.plan-ceil h3 {
+  font-family: "Microsoft Yahei";
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.plan-ceil p {
+  line-height: 15px;
+}
+
+.plan-ceil p.price {
+  margin-top: 20px;
+}
