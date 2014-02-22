@@ -1,4 +1,4 @@
-<html>
+<html xmlns:wb=”http://open.weibo.com/wb“>
 <head>
   <title> Green Style </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -137,8 +137,68 @@
     </p>
     <p>CopyRight ©2013-2014 All Rights Reserved 杭州绿尚家居环保有限责任公司</p>
     <p>地址：<a target="_blank" href="http://map.baidu.com">浙江省杭州市下沙高教园区学正街18号</a></p>
-  </div>
+    <div class="row" style="padding:10px 0;">
+      <a href="http://www.appbyme.com/mobcentACA/app.do?appKey=Yb27vk9jTtQRs3WlI2" target="_blank">
+        <img src="images/bcode.png" style="width:100px" />
+      </a>
+    </div>
 
+    <!-- share partial -->
+    <div style="position:relative;height:20px;" class="col-md-offset-5">
+      <div style="position:absolute;top:0px;left:20px;font-size:12px;">分享到：</div>
+      <!-- qq -->
+      <div style="position:absolute;top:0;left:70px;">
+        <script type="text/javascript">
+          (function(){
+            var p = {
+              url:location.href,
+              desc:'',
+              title:'',
+              summary:'',
+              pics:'',
+              flash: '',
+              site:'',
+              style:'203',
+              width:16,
+              height:16
+            };
+            var s = [];
+            for(var i in p){
+              s.push(i + '=' + encodeURIComponent(p[i]||''));
+            }
+            document.write(['<a class="qcShareQQDiv" href="http://connect.qq.com/widget/shareqq/index.html?',s.join('&'),'" target="_blank">·ÖÏíµ½QQ</a>'].join(''));
+          })();
+        </script>
+        <script src="http://connect.qq.com/widget/loader/loader.js" widget="shareqq" charset="utf-8"></script>
+      </div>
+      
+      <!-- weibo.com -->
+      <div style="position:absolute;left:100px;top:-4px;" title="分享到微博">
+        <wb:share-button addition="simple" type="icon"></wb:share-button>
+      </div>
+    
+      <!-- t.qq.com -->
+      <div style="position:absolute;left:130px;" title="·ÖÏíµ½ÌÚÑ¶Î¢²©">
+        <div id="qqwb_share__" data-appkey="801476438" data-icon="2" data-counter="0" data-content="{title}" data-pic="{pic}"></div>
+      </div>
+    
+      <!-- renren.com -->
+      <div style="position:absolute;left:160px;" title="·ÖÏíµ½ÈËÈË">
+      <a name="xn_share" onclick="shareClick()" type="icon" href="javascript:;"></a>
+      <script type="text/javascript">
+        function shareClick() {
+          var rrShareParam = {
+            resourceUrl : '',
+            srcUrl : '',
+            pic : '',
+            title : document.title,
+            description : ''
+          };
+          rrShareOnclick(rrShareParam);
+        }
+      </script>
+    </div>
+  </div>
 
   <!-- Product Spec -->
   <div class="modal fade" id="spec-modal">
@@ -293,6 +353,9 @@
 
 </body>
 
+<script type="text/javascript" src="http://widget.renren.com/js/rrshare.js"></script>
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://mat1.gtimg.com/app/openjs/openjs.js#autoboot=no&debug=no"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
