@@ -1,4 +1,4 @@
-<html>
+<html xmlns:wb=”http://open.weibo.com/wb“>
 <head>
   <title> Green Style </title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -7,9 +7,18 @@
 </head>
 
 <style type="text/css">
-#about-body h2 {
-  margin: 30px 0;
-}
+  .post {
+    border-left: 4px solid #ccf9bc;
+    padding: 0 0 0 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .post h2 {
+    line-height: 40px;
+  }
+  .post h4 {
+    line-height: 30px;
+  }
 </style>
 
 <body>
@@ -20,57 +29,220 @@
       <span id="search-icon">󰄬</span>
       <span id="search-input">&nbsp;搜索</span>
     </div>
-    <div class="row one-page-content" onclick="location.href='../'" style="cursor:pointer">
+    <div class="row one-page-content" onclick="location.href='./'" style="cursor:pointer">
       <h1>Green Style</h1>
       <h3 class="slogan">一体化室内家居环保全新上线</h3>
     </div>
   </div>
 
   <!-- Content -->
-  <div class="row" id="about-body" style="padding:20px 0">
-    <div class="col-md-8 col-md-offset-2" style="padding-bottom:30px;border-bottom:1px solid #ccc">
-      <h2> 联系我们 </h2>
-      <table class="table">
+  <div class="row" style="margin-top:60px;">
+    <div class="post col-md-8 col-md-offset-2">
+      <h2>生活小窍门</h2>
+      <h4>窍门1： 选用节能空调 省电每天做到</h4>
+      <p>同样的制冷效果，更少的耗电需求，这就是节能空调的妙处。</p>
+      <p>如果全国的家庭都用它，每年可以节约用电33亿度，相当于少建一个60万千瓦的火力发电厂，还能减排温室气体330万吨。</p>
+      <h4>窍门2 ：空调调高一度 节电百分之七</h4>
+      <p>夏天空调温度过低，不但浪费能源，还削弱了人体自动调节体温的能力。</p>
+      <p>只要把空调调高一摄氏度，全国每年节电33亿度。另外，降低室内外温差，也减少了患感冒的几率。</p>
+      <h4>窍门3： 点亮节能灯 省电看得清</h4>
+      <p>一只11W节能灯的照明效果，顶得上60W的普通灯泡，而且每分钟都比普通灯泡节电80%。</p>
+      <p>如果全国使用12亿支节能灯，节约的电量相当于三峡水电站的年发电量。</p>
+      <h4>窍门4 ：屏幕暗一点 节能又护眼</h4>
+      <p>屏幕太亮，不但缩短电视机的寿命而且费电。调成中等亮度，则既能省电又能保护视力，尤其是对眼睛正在发育的孩子来说。</p>
+      <p>中国目前有3亿台电视，仅调暗亮度这一个小动作，每年就可以省电50亿度。</p>
+      <h4>窍门5： 用完电器拔插头 省电又安全</h4>
+      <p>看完了电视和DVD，摁下遥控器并不是彻底关机，其实它还在耗电。只有将电源拔下，它才彻底不耗电。</p>
+      <p>别小看这个小动作，如果人人坚持，全国每年省电180亿度，相当于三座大亚湾核电站年发电量的总和呢！</p>
+    </div>
+
+    <div class="post col-md-8 col-md-offset-2">
+      <h2>生活小常识</h2>
+      <ul>
+        <li>打扫清洁家居，减少使用化学清洁剂或杀虫剂</li>
+        <li>用柠檬及炭等消除异味，代替化学空气清新剂</li>
+        <li>食具不大油腻时用暖水清洗，减少使用洗洁精</li>
+        <li>室内外多种植物可使周围阴凉，减少开风扇、冷气</li>
+        <li>时常留意保养电器(特别是冷气机)，减少耗电</li>
+        <li>选用效能好的电器用品</li>
+        <li>非必需的电器(电动牙刷等)可以少买</li>
+        <li>若不是太热时，用电风扇代替冷气较省电</li>
+        <li>冰箱放在阴凉角落可省电，开门取物后尽快关上</li>
+        <li>冰箱不贮存太多食物，这样省电又减少中毒危险</li>
+        <li>使用日光灯及省电灯炮较省电，更可多利用天然光</li>
+        <li>离开房间时关掉电灯和冷气机</li>
+        <li>多用快锅或闷烧锅煮食，既省燃料又省时间，更保存营养</li>
+        <li>多吃蔬果少吃肉，个人健康有助利，地球更减少破坏 </li>
+        <li>适当饮食多福多寿</li>
+        <li>多自制饮料食品，有益健康又省钱，更保护环境</li>
+      </ul>
+    </div>
+
+    <div class="post col-md-8 col-md-offset-2">
+      <h2>生活环保解答</h2>
+      <h4>1. 食物垃圾分类包括纸制品，如包装罐、铝箔包、纸盒包(如牛奶盒)、纸餐具</h4>
+      <ul>
+        <li><p>纸制包装罐 先去除胶、拆开、压平后才可回收;</p></li>
+        <li><p>铝箔包(利乐包) 先将吸管去除、压扁后回收;</p></li>
+        <li><p>废纸餐具 先用水略为清洗后回收;</p></li>
+        <li><p>铁容器、铁制品(如食品罐头、油漆罐、奶粉罐、铁盒、铁箱、铁锅等)，金属制品如铝容器、铝制品(如饮料铝罐、铝盆、铝门窗外框等) 倒空容器内之残余物，用水略为清洗后回收。</p></li>
+      </ul>
+      <h4>2. 10月4日是世界动物日</h4>
+      <h4>3. 选用电磁炉来打造绿色厨房。</h4>
+      <h4>4. 在外就餐时只使用一次性筷子，认为这样的方式比较卫生、安全。</h4>
+      <p>这种一次性筷子的危害远远大于消过毒的非一次性餐具。经过硫磺气体漂白，会产生大量二氧化硫成分，而且二氧化硫遇冷会凝固。因此，用这种筷子进餐时，二氧化硫随着空气的流动很容易凝固至呼吸道，导致咳嗽、哮喘等疾病。</p>
+      <h4>5. 世界环境日是6月5日</h4>
+      <h4>6. 去除果蔬农药残留的主要方法，就是用洗洁精浸泡。</h4>
+      <p>由于市场上洗洁精的PH值基本上呈弱碱性，而“敌敌畏”等剧毒农药一旦与弱碱性的洗洁精接触后，会产生毒性更强的有害物质，容易形成二次污染。尽量减少使用洗洁精，可以采用传统的碱面来去除餐具上的油腻。如用洗洁精洗涤蔬菜、水果时，将洗洁精用水稀释成200—500倍(洗涤浓度以0.2%至0.5%为宜)，浸泡时间以5分钟为宜，洗洁精有助于洗涤蔬菜、水果上的残留农药等物质，浸泡后还需反复用流动清水冲洗干。</p>
+      <h4>7. 再过两个月就是一年一度的圣诞节，小明同学决定买40张圣诞卡送给每一位同学</h4>
+      <p>这种做法不环保，因为制造精美的贺卡要砍伐树木，4000个贺卡就要牺牲一棵大树，会破坏环境。支持大学生哥哥姐姐的“减卡救树”活动，建议用废纸自制圣诞卡，这样既别致，又有意义。</p>
+      <h4>8. 明天就是秋游了，小红要妈妈帮忙准备一些塑料饮料(可乐、果汁等)</h4>
+      <p>外出游玩时，自带水壶装水喝。 </p>
+    </div>
+
+    <div class="post col-md-8 col-md-offset-2">
+      <h2>噪声标准</h2>
+      <p>噪声级为30～40分贝是比较安静的正常环境；超过50分贝就会影响睡眠和休息。由于休息不足，疲劳不能消除，正常生理功能会受到一定的影响；70分贝以上干扰谈话，造成心烦意乱，精神不集中，影响工作效率，甚至发生事故；长期工作或生活在90分贝以上的噪声环境，会严重影响听力和导致其他疾病的发生。</p>
+      <p>听力损伤有急性和慢性之分。接触较强噪声，会出现耳鸣、听力下降，只要时间不长，一旦离开噪声环境后，很快就能恢复正常，称为听觉适应。如果接触强噪声的时间较长，听力下降比较明显，则离开噪声环境后，就需要几小时，甚至十几到二十几小时的时间，才能恢复正常，称为听觉疲劳。这种暂时性的听力下降仍属于生理范围，但可能发展成噪声性耳聋。如果继续接触强噪声，听觉疲劳不能得到恢复，听力持续下降，就会造成噪声性听力损失，成为病理性改变。这种症状在早期表现为高频段听力下降。但在这个阶段，患者主观上并无异常感觉，语言听力也无影响，称为听力损伤。</p>
+      <p>病程如进一步发展，听力曲线将继续下降，听力下降平均超过25分贝时，将出现语言听力异常，主观上感觉会话有困难，称为噪声性耳聋。此外，强大的声暴，如爆炸声和枪炮声，能造成急性暴震性耳聋，出现鼓膜破裂，中耳小听骨错位，韧带撕裂，出血，听力部分或完全丧失。主观症状有耳痛、眩晕、头痛、恶心及呕吐等。</p>
+      <p>噪声除损害听觉外，也影响其他系统。神经系统表现为以头痛和睡眠障碍为主的神经衰弱症状群，脑电图有改变（如节律改变，波辐低，指数下降），植物神经功能紊乱等；心血管系统出现血压不稳（大多数增高），心率加快，心电图有改变（窦性心率不齐，缺血型改变）；胃肠系统出现胃液分泌减少，蠕动减慢，食欲下降；内分泌系统表现为甲状腺机能亢进，肾上腺皮质功能增强，性机能紊乱，月经失调</p>
+    </div>
+
+    <div class="post col-md-8 col-md-offset-2">
+      <h2>光污染标准</h2>
+      <p>CIE TC5．12主要以英国《降低光污染指南书》为依据，按下四个环境区域，确定限制光污染的标准值。</p>
+      <p>E1区为天然暗环境区，如国家公园和自然保护区等。</p>
+      <p>E2区为低亮度环境区，如乡村的工业或居住区等。</p>
+      <p>E3区为中等亮度环境区，如城郊工业或居住区等。</p>
+      <p>E4区为高亮度环境区，如城市中心和商业区等。</p>
+      <p>对于低亮度光环境区域(E2区)，在熄灯时段(Curfew)之后，CIE技术委员会(TC5—12)采纳了德国建筑物窗面垂直照度为1lx的建议。此标准是基于对德国41个地方的调查，考虑了大多数住民对窗户垂直照度的反应。</p>
+      <p>(1)从测试房间的亮度与危害健康两方面分析，发现当窗户垂直照度达到1lx时，开始反应不满。</p>
+      <p>(2)窗侧的垂直面照度大于31x时，对房间过亮不满者显著增加，达到51x以上时，感到危害健康的人群，以相对的比例急增。</p>
+      <p>对熄灯时段(curfew)之前，在中等亮度环境区域(E3区)的101x。CIE主要参考了澳大利亚里斯本市议会的防止光污染条例。该条例根据实际经验，窗户的垂直面照度限制为81x。同时参考了澳大利亚1997年制定的防治光污染标准AS4282—1997《control of the obtrusive effects outdoor lighting》。该标准也规定为101x。另外，和英国《降低光污染指南书》规定的标准比，熄灯时段前和英国标准完全相同，只是熄灯时段后，要求更严了。</p>
+      <p>在一些大城市，尤其是商业区或建筑工地附近，若是以此作标准，我们估计附近居民区的窗侧的垂直面照度可能大于31x甚至更高。照度参考表 ：</p>
+      <table class="table table-striped">
         <tr>
-          <th>工作时间</th>
-          <td>周一至周五 8:00~21:00</td>
+          <th>天气</th>
+          <td>晴天</td>
+          <td>阴天</td>
+          <td>日出日落</td>
+          <td>月圆</td>
+          <td>星光</td>
+          <td>阴暗夜晚</td>
         </tr>
         <tr>
-          <th>手机</th>
-          <td>158-5719-7250</td>
-        </tr>
-        <tr>
-          <th>QQ</th>
-          <td><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=550532246&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:550532246:20" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></td>
-        </tr>
-        <tr>
-          <th>电子邮箱</th>
-          <td>
-            <a href="mailto:695751096@qq.com">695751096@qq.com</a>
-          </td>
-        </tr>
-        <tr>
-          <th>地址</th>
-          <td>浙江省杭州市下沙高教园区学正街18号</td>
+          <th>照度(LX)</th>
+          <td>30000~300000</td>
+          <td>3000</td>
+          <td>300</td>
+          <td>0.3~0.03</td>
+          <td>0.0002~0.00002</td>
+          <td>0.003~0.0007</td>
         </tr>
       </table>
+      <table class="table table-striped">
+        <tr>
+          <th>室内场所</th>
+          <td>生产车间</td>
+          <td>办公室</td>
+          <td>餐厅</td>
+          <td>走廊</td>
+          <td>停车场</td>
+        </tr>
+        <tr>
+          <th>照度(LX)</th>
+          <td>10~500</td>
+          <td>30~50</td>
+          <td>10~30</td>
+          <td>5~10</td>
+          <td>1~5</td>
+        </tr>
+      </table>
+      <p>室内刚能辨别人脸的轮廓，照度为20LX，下棋打牌的照度为150LX，看小说约需250LX，即25瓦白炽灯离书30-50厘米，书写约需要500LX，即40瓦白炽灯离书30-50厘米，看电视约需30LX，用一支3瓦的小灯放在视线之外就行了。</p>
+      <p>保持合适的照度，对提高工作和学习效率都有很大的好处；在过于强烈或过于阴暗的光线照射下工作学习，对眼睛都是有害的。</p>
     </div>
+
+    <div class="col-md-8 col-md-offset-2" style="border-bottom:1px solid #ccc"></div>
+
   </div>
 
   <!-- footer -->
   <div class="row" id="footer">
     <p>
       <a href="blog.html">博客</a>&nbsp; | 
-      <a href="standard.html">专业检测标准</a>&nbsp; | 
       <a href="about.html">关于我们</a>&nbsp; | 
       <a href="contactus.html">联系我们</a>&nbsp;
     </p>
     <p>CopyRight ©2013-2014 All Rights Reserved 杭州绿尚家居环保有限责任公司</p>
     <p>地址：<a target="_blank" href="http://map.baidu.com">浙江省杭州市下沙高教园区学正街18号</a></p>
+    <div class="row" style="padding:10px 0;">
+      <a href="http://www.appbyme.com/mobcentACA/app.do?appKey=Yb27vk9jTtQRs3WlI2" target="_blank">
+        <img src="images/bcode.png" style="width:100px" />
+      </a>
+    </div>
+
+    <!-- share partial -->
+    <div style="position:relative;height:20px;" class="col-md-offset-5">
+      <div style="position:absolute;top:0px;left:20px;font-size:12px;">分享到：</div>
+      <!-- qq -->
+      <div style="position:absolute;top:0;left:70px;">
+        <script type="text/javascript">
+          (function(){
+            var p = {
+              url:location.href,
+              desc:'',
+              title:'',
+              summary:'',
+              pics:'',
+              flash: '',
+              site:'',
+              style:'203',
+              width:16,
+              height:16
+            };
+            var s = [];
+            for(var i in p){
+              s.push(i + '=' + encodeURIComponent(p[i]||''));
+            }
+            document.write(['<a class="qcShareQQDiv" href="http://connect.qq.com/widget/shareqq/index.html?',s.join('&'),'" target="_blank">·ÖÏíµ½QQ</a>'].join(''));
+          })();
+        </script>
+        <script src="http://connect.qq.com/widget/loader/loader.js" widget="shareqq" charset="utf-8"></script>
+      </div>
+      
+      <!-- weibo.com -->
+      <div style="position:absolute;left:100px;top:-4px;" title="分享到微博">
+        <wb:share-button addition="simple" type="icon"></wb:share-button>
+      </div>
+    
+      <!-- t.qq.com -->
+      <div style="position:absolute;left:130px;" title="·ÖÏíµ½ÌÚÑ¶Î¢²©">
+        <div id="qqwb_share__" data-appkey="801476438" data-icon="2" data-counter="0" data-content="{title}" data-pic="{pic}"></div>
+      </div>
+    
+      <!-- renren.com -->
+      <div style="position:absolute;left:160px;" title="·ÖÏíµ½ÈËÈË">
+      <a name="xn_share" onclick="shareClick()" type="icon" href="javascript:;"></a>
+      <script type="text/javascript">
+        function shareClick() {
+          var rrShareParam = {
+            resourceUrl : '',
+            srcUrl : '',
+            pic : '',
+            title : document.title,
+            description : ''
+          };
+          rrShareOnclick(rrShareParam);
+        }
+      </script>
+    </div>
   </div>
 
 </body>
 
+<script type="text/javascript" src="http://widget.renren.com/js/rrshare.js"></script>
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://mat1.gtimg.com/app/openjs/openjs.js#autoboot=no&debug=no"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
