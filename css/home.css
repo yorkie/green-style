@@ -9,6 +9,10 @@
   src: url("../fonts/icon-search.ttf") format("truetype");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #search-icon {
   font-family: "icon-search";
   font-size: 24px;
@@ -100,6 +104,10 @@
 
 #counselor-row .gs-spec {
   padding-top: -10px;
+}
+
+#more-row {
+  margin-top: 80px;
 }
 
 /*
